@@ -822,6 +822,8 @@ h4 {
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+    /* background-image: linear-gradient(180deg, #ffffff 25%, #f0f0f0 25%, #f0f0f0 50%, #ffffff 50%, #ffffff 75%, #f0f0f0 75%, #f0f0f0 100%);
+    background-size: 8.00px 8.00px; */
 }
 
 .bg-banniere {
@@ -1089,8 +1091,30 @@ h4 {
 
 /* Ajout pour amélioration SEO */
 
+.subtitle {
+    color: #F3976C !important;
+}
+
+.quote {
+    font-size: 1.5em;
+    color: #777777;
+}
+
+.author {
+    font-size: 1.5em;
+    color: #999999;
+}
+
 .services-title {
     font-size: 1.5em;
     width: 60%;
     margin: 0 auto;
+}
+
+.text-description {
+    font-size: 1em;
+}
+
+.text-article {
+    font-size: 1em;
 }
