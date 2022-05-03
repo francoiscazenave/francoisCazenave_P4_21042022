@@ -1091,6 +1091,8 @@ h4 {
 
 /* Ajout pour amélioration SEO */
 
+/* Page index */
+
 .subtitle {
     color: #F3976C !important;
 }
@@ -1116,5 +1118,16 @@ h4 {
 }
 
 .text-article {
+    font-size: 1em;
+}
+
+/* Page contact */
+
+.banner-title {
+    color: white !important;
+}
+
+.banner-txt {
+    color: white !important;
     font-size: 1em;
 }
