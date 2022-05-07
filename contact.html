@@ -18,11 +18,13 @@
 	<!-- Ajout de la balise canonical -->
 	<link rel="canonical" href="https://francoiscazenave.github.io/francoisCazenave_P4_21042022/contact.html" />
 
+	<!-- Fichiers CSS et JS minifiés -->
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-	
+	<!-- JS -->
 	<script src="./js/jquery-2.1.0.min.js" defer></script>
 	<script src="./js/bootstrap.min.js" defer></script>
 	<script src="./js/blocs.min.js" defer></script>
@@ -84,10 +86,10 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="text-center hero-bloc-text tc-white banner-title">
+						<h1 class="text-center hero-bloc-text tc-white text-black">
 							Parlons web design !
 						</h1>
-						<p class="text-center mg-lg tc-white tight-width-whitespace banner-txt">
+						<p class="text-center mg-lg tc-white tight-width-whitespace text-article text-black">
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 						</p>
@@ -102,32 +104,32 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1" novalidate success-msg="Votre message a été envoyé."
+							fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, Désolé pour le dérangement !">
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom
 								</label>
-								<input id="name" class="form-control" required />
+								<input name="name" id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email">
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input name="email" id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="input_504">
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input name="input_504" class="form-control" type="text" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								</label><textarea name="message" id="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div>
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine text-black" type="submit">
 								Envoyer
 							</button>
 						</form>
@@ -154,28 +156,28 @@
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center white">
+						<p class="text-center white text-black text-description">
 							Agence La Panthère - Agence web basée à Lyon.<br>
 						</p>
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="index.html"><span class="fa fa-twitter icon-md icon-black"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="index.html"><span class="fa fa-facebook icon-md icon-black"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md icon-black"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="index.html"><span class="fa fa-instagram icon-md icon-black"></span></a>
 								</div>
 							</div>
 						</div>
