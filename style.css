@@ -1094,7 +1094,7 @@ h4 {
 /* Page index */
 
 .text-white {
-    color: white !important;
+    color: rgb(247, 247, 247) !important;
 }
 
 .quote {
@@ -1119,6 +1119,22 @@ h4 {
 
 .text-article {
     font-size: 1em;
+}
+
+.black-background {
+    background-color: rgba(18, 17, 17, 0.8);
+}
+
+.text-black {
+    color: rgba(34, 34, 34, 1) !important;
+}
+
+.icon-black {
+    color: rgba(34, 34, 34, 0.9) !important;
+}
+
+.icon-black:hover {
+    color: white !important;
 }
 
 /* Page contact */
